@@ -29,7 +29,7 @@ jobs:
       - name: Build
         run: |
           npm install
-          npm run build
+          npm run deploy-build
       - name: Deploy
         run: |
           npx vercel --token ${{ secrets.VERCEL_TOKEN }} --scope ${{ secrets.VERCEL_SCOPE }} --force -m githubCommitSha=${{ github.sha }}
