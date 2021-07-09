@@ -49,6 +49,14 @@ module.exports = {
               label: 'Introduction',
               to: '/docs/intro',
             },
+            {
+              label: 'Section 1',
+              to: '/docs/section-1/overview'
+            },
+            {
+              label: 'Section 2',
+              to: '/docs/section-2/overview'
+            },
           ],
         },
         {
