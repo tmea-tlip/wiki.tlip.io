@@ -18,4 +18,4 @@ Led by a team of talented developers and passionate industry experts, IOTA devel
 
 With this groundbreaking architecture, the open-source Tangle ecosystem is designed to become the catalyst for new economic systems and business models enabling a convergence of several key vertical industries, including supply chain, mobility and automotive, eHealth as well as smart energy/connected cities.
 
-Check our website at: www.iota.org
+Check the website at: [www.iota.org](www.iota.org)

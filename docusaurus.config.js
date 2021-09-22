@@ -27,25 +27,25 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'section-1/overview',
+          docId: 'iota/overview',
           position: 'left',
           label: 'IOTA',
         },
         {
           type: 'doc',
-          docId: 'section-2/overview',
+          docId: 'faq/overview',
           position: 'right',
           label: 'FAQs',
         },
         {
           type: 'doc',
-          docId: 'section-3/overview',
+          docId: 'user-guide/overview',
           position: 'left',
           label: 'User Guide'
         },
         {
           type: 'doc',
-          docId: 'section-4/overview',
+          docId: 'partners/overview',
           position: 'right',
           label: 'Partners'
         }
@@ -63,15 +63,15 @@ module.exports = {
             },
             {
               label: 'IOTA',
-              to: '/docs/section-1/overview'
+              to: '/docs/iota/overview'
             },
             {
               label: 'FAQs',
-              to: '/docs/section-2/overview'
+              to: '/docs/faq/overview'
             },
             {
               label: 'User Guide',
-              to: '/docs/section-3/overview'
+              to: '/docs/user-guide/overview'
             }
           ],
         },
