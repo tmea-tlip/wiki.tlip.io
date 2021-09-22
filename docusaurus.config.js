@@ -29,14 +29,26 @@ module.exports = {
           type: 'doc',
           docId: 'section-1/overview',
           position: 'left',
-          label: 'Section 1',
+          label: 'IOTA',
         },
         {
           type: 'doc',
           docId: 'section-2/overview',
-          position: 'left',
-          label: 'Section 2',
+          position: 'right',
+          label: 'FAQs',
         },
+        {
+          type: 'doc',
+          docId: 'section-3/overview',
+          position: 'left',
+          label: 'User Guide'
+        },
+        {
+          type: 'doc',
+          docId: 'section-4/overview',
+          position: 'right',
+          label: 'Partners'
+        }
       ],
     },
     footer: {
@@ -50,13 +62,17 @@ module.exports = {
               to: '/docs/intro',
             },
             {
-              label: 'Section 1',
+              label: 'IOTA',
               to: '/docs/section-1/overview'
             },
             {
-              label: 'Section 2',
+              label: 'FAQs',
               to: '/docs/section-2/overview'
             },
+            {
+              label: 'User Guide',
+              to: '/docs/section-3/overview'
+            }
           ],
         },
         {

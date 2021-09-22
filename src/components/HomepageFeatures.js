@@ -4,29 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Feature 1',
-    Svg: require('../../static/img/logo.svg').default,
+    title: 'Decentralised',
+    Svg: require('../../static/img/dec.svg').default,
     description: (
       <>
-        A description of feature 1.
+        Data is not stored or controlled centrally
       </>
     ),
   },
   {
-    title: 'Feature 2',
-    Svg: require('../../static/img/logo.svg').default,
+    title: 'Secure',
+    Svg: require('../../static/img/legacy.svg').default,
     description: (
       <>
-        A description of feature 2.
+       State of the art security encryption
       </>
     ),
   },
   {
-    title: 'Feature 3',
-    Svg: require('../../static/img/logo.svg').default,
+    title: 'Upgrades legacy IT',
+    Svg: require('../../static/img/secure.svg').default,
     description: (
       <>
-        A description of feature 3.
+        Plugs into existing systems and keeps data local
       </>
     ),
   },
