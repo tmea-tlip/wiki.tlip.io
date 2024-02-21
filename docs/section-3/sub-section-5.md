@@ -1,31 +1,17 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# Adding an Identifier
+# Reset Password
 
-To add an identifier, click on the Add Identifier link on the Details tab.
+If you forgot your password, click on Forgot your password? on the login page.
 
-![Consignments Page](/img/userGuide/addidendetails.png)
+![Reset Password](/img/userGuide/rp1.png)
 
-Only an identifierfrom the existing types can be added to a consignment. One can select one from an existing list of Types.
+Enter your email address in the Enter email field and click on Submit.
 
-![Consignments Page](/img/userGuide/clickidtype.png)
+![Reset Password](/img/userGuide/rp2.png)
 
-For our demo, we'll choose the KRA Entry Number
+Open the email from notifications@tlip.io and click on Reset your password to proceed.
 
-![Consignments Page](/img/userGuide/chooseidentifiertype.png)
-
-After which,we'll add the actual KRA Entry Number
-
-![Consignments Page](/img/userGuide/inputidentifier.png)
-
-We save it by clicking the Add Identifier button
-
-![Consignments Page](/img/userGuide/EntryValue.png)
-
-The identifier we just created will now show up in the Details Page.
-
-![Consignments Page](/img/userGuide/addingidentifier.png)
-
-![Consignments Page](/img/userGuide/detailsidentifier.png)
+![Reset Password](/img/userGuide/rp3.png)

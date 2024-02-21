@@ -2,9 +2,18 @@
 sidebar_position: 2
 ---
 
-# Log In
+# Sign Up
 
-The first step is logging in to the TLIP platform. A registered email address and password is required to log in.
+Click on the Sign Up login page
 
-![LogIn](/img/userGuide/login.png)
+![SignUp](/img/userGuide/su1.png)
 
+Enter the required details and click on the Sign Up button
+
+![SignUp](/img/userGuide/su2.png)
+
+Verify your email address by clicking on the Verify button in the email received from notifications@tlip.io
+
+- Make sure to check your spam if you can’t find the email in your inbox.
+
+![SignUp](/img/userGuide/su3.png)
