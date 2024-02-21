@@ -6,16 +6,25 @@ sidebar_position: 8
 
 To create a consignment, click on the Create Consignment button.
 
+<<<<<<< HEAD:docs/section-3/sub-section-7.md
 ![Create a consignment](/img/userGuide/cac30.png)
 
 Select type of consignment, i.e., single consignment or consolidated consignment.
+=======
+![View on Tangle](./images/click-view-tangle.png)
+>>>>>>> dev:docs/user-guide/viewing-on-tangle.md
 
 ![Create a consignment](/img/userGuide/cac31.png)
 
+<<<<<<< HEAD:docs/section-3/sub-section-7.md
 Add an identifier
+=======
+![View on Tangle](./images/mam-credentials.png)
+>>>>>>> dev:docs/user-guide/viewing-on-tangle.md
 
 Select the Identifier type (Commercial Invoice Number, Master Airway Bill Number, UCR Number, etc.) in the dropdown menu.
 
+<<<<<<< HEAD:docs/section-3/sub-section-7.md
 ![Create a consignment](/img/userGuide/caac1.png)
 
 Enter the Identifier value (i.e., reference number) for the selected identifier type.
@@ -65,3 +74,6 @@ Review the consolidated shipment
 Review the details of the consignment and click on Create Consignment to finalize.
 
 ![Create a consignment](/img/userGuide/cac22.png)
+=======
+![View on Tangle](./images/tangle-view.png)
+>>>>>>> dev:docs/user-guide/viewing-on-tangle.md
