@@ -1,5 +1,5 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -27,25 +27,25 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'iota/overview',
+          docId: 'section-1/overview',
           position: 'left',
           label: 'IOTA',
         },
         {
           type: 'doc',
-          docId: 'faq/overview',
+          docId: 'section-2/overview',
           position: 'right',
           label: 'FAQs',
         },
         {
           type: 'doc',
-          docId: 'user-guide/overview',
+          docId: 'section-3/overview',
           position: 'left',
           label: 'User Guide'
         },
         {
           type: 'doc',
-          docId: 'partners/overview',
+          docId: 'section-4/overview',
           position: 'right',
           label: 'Partners'
         }
@@ -63,15 +63,15 @@ module.exports = {
             },
             {
               label: 'IOTA',
-              to: '/docs/iota/overview'
+              to: '/docs/section-1/overview'
             },
             {
               label: 'FAQs',
-              to: '/docs/faq/overview'
+              to: '/docs/section-2/overview'
             },
             {
               label: 'User Guide',
-              to: '/docs/user-guide/overview'
+              to: '/docs/section-3/overview'
             }
           ],
         },
