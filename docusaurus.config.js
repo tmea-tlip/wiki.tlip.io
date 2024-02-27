@@ -79,11 +79,11 @@ module.exports = {
 					title: 'Organization',
 					items: [
 						{
-							label: 'TMEA',
-							href: 'https://www.trademarkea.com/',
+							label: 'TradeMark Africa',
+							href: 'https://www.trademarkafrica.com/',
 						},
 						{
-							label: 'IF',
+							label: 'IOTA Foundation',
 							href: 'https://www.iota.org',
 						},
 					],
@@ -98,7 +98,7 @@ module.exports = {
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} TMEA TLIP.`,
+			copyright: `Copyright © ${new Date().getFullYear()} TMA TLIP.`,
 		},
 		prism: {
 			theme: lightCodeTheme,
