@@ -23,7 +23,7 @@ export default function Home() {
 	return (
 		<Layout
 			title={siteConfig.title}
-			description={siteConfig.description}>
+			description="Paperless trade between border agencies and traders">
 			<HomepageHeader />
 			<main>
 				<HomepageFeatures />

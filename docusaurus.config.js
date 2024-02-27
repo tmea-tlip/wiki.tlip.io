@@ -5,7 +5,6 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 module.exports = {
 	title: 'TLIP Wiki',
 	tagline: 'Trade and Logistics Information Pipeline',
-	description: 'Paperless trade between border agencies and traders',
 	url: 'https://wiki.tlip.io',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
