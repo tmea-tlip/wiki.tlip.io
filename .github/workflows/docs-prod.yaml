@@ -1,0 +1,46 @@
+name: docs.tlip.io Build and Deploy Production
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/docs.yaml"
+      - "docs/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+  deployments: write
+
+concurrency:
+  group: docs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4.0.2
+
+      - name: Build
+        run: |
+          npm install
+          npm run deploy-build
+          cd build
+
+      - name: Deploy to Vercel
+        uses: BetaHuhn/deploy-to-vercel-action@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+          ALIAS_DOMAINS: ${{ secrets.DOMAIN }}
+          PRODUCTION: true
