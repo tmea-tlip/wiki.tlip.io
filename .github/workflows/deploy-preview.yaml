@@ -1,4 +1,4 @@
-name: docs.tlip.io Build and Deploy Preview
+name: wiki.tlip.io Build and Deploy Preview
 
 on:
   push:

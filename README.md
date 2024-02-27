@@ -1,6 +1,6 @@
-# docs.tlip.io
+# wiki.tlip.io
 
-The documentation web site for the TMEA TLIP project [docs.tlip.io](docs.tlip.io).
+The documentation web site for the TMEA TLIP project [wiki.tlip.io](wiki.tlip.io).
 
 ## Installation
 
