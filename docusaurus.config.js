@@ -34,21 +34,41 @@ module.exports = {
 				{
 					type: 'doc',
 					docId: 'section-2/overview',
-					position: 'right',
-					label: 'FAQs',
+					position: 'left',
+					label: 'TLIP Infrustructure'
 				},
 				{
 					type: 'doc',
 					docId: 'section-3/overview',
-					position: 'left',
-					label: 'User Guide'
+					position: 'right',
+					label: 'FAQs',
 				},
+				
 				{
 					type: 'doc',
 					docId: 'section-4/overview',
-					position: 'right',
-					label: 'Partners'
-				}
+					position: 'left',
+					label: 'TLIP Development'
+				},
+				{
+					type: 'doc',
+					docId: 'section-5/overview',
+					position: 'left',
+					label: 'User guide'
+				},
+				{
+					type: 'doc',
+					docId: 'section-6/overview',
+					position: 'left',
+					label: 'Developer guide'
+				},
+				{
+					type: 'doc',
+					docId: 'section-7/overview',
+					position: 'left',
+					label: 'Integration'
+				},
+				
 			],
 		},
 		footer: {
@@ -72,7 +92,7 @@ module.exports = {
 						{
 							label: 'User Guide',
 							to: '/docs/section-3/overview'
-						}
+						},
 					],
 				},
 				{

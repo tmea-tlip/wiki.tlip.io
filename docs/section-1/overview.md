@@ -10,6 +10,8 @@ Because IOTA is a permissionless network, anyone (or even better 'anything') can
 
 The goal of IOTA is to set up a layer of trust for the Internet-of-Things. This enables a great number of applications which were impossible in the past, because it was centralized, not scalable, not secure, or it violated privacy rules. Some examples are digital identity, microtransactions (e.g. autonomous machine-to-machine payments), supply chain auditing, and anything else that requires the integrity and immutability of certain data. It can also be used as an instrument to preserve a free and open internet, by improving privacy and security in an open network setting. For more information and examples you can visit the official website as linked below. The development of IOTA is led by the non-profit IOTA foundation which is based in Germany. Several companies have already started projects and proof-of-concepts with IOTA such as Bosch, Jaguar Land Rover, Fujitsu and STMicroelectronics.
 
+![IOTA](/img/developerGuide/iota.png)
+
 ## IOTA Foundation
 
 IOTA Foundation is a non-profit organization and creator of the Tangle, a permissionless, multi-dimensional distributed ledger, designed as a foundation of a global protocol for all things connected.
