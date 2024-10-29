@@ -4,14 +4,9 @@ sidebar_position: 1
 
 # Overview
 
-In addition to the manual we have created a video walkthrough of the functions of the TLIP platform, this is available here: https://www.youtube.com/watch?v=nfFXni0rL1c&feature=youtu.be
-
 ## Actions
 
-To access the TLIP platform simply go to https://pilot-tlip-app.dag.sh/
-
-To access the TLIP API simply contact the team and
-Request for testing credentials
+To access the TLIP platform simply go to https://app.tlip.io/
 
 The following actions can be performed in the TLIP platform
 
