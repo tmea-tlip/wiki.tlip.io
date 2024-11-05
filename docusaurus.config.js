@@ -35,7 +35,7 @@ module.exports = {
 					type: 'doc',
 					docId: 'section-2/overview',
 					position: 'left',
-					label: 'TLIP Infrustructure'
+					label: 'TLIP infrastructure'
 				},
 				{
 					type: 'doc',
