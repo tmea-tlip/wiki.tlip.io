@@ -4,10 +4,16 @@ sidebar_position: 3
 
 # Create your organization
 
-Enter the name of your organization and click on the Next button.
+Set up your organisation profile after signing up.
 
-![Create your organization](/img/userGuide/cyo1.png)
+## Enter your organisation name
 
-Enter the local details of your organization and click the Next button
+Enter the name of your organization and click **Next**.
 
-![Create your organization](/img/userGuide/cyo2.png)
+![Organisation name field](/img/userGuide/cyo1.png)
+
+## Enter local details
+
+Enter the local details of your organization and click **Next**.
+
+![Organisation local details form](/img/userGuide/cyo2.png)

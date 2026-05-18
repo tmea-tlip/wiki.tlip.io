@@ -2,10 +2,22 @@
 sidebar_position: 7
 ---
 
-# Consignments Overview
+# Reset Password
 
-After logging in, you will see the consignments overview with a list of all available consignments.
+Recover access to your account if you have forgotten your password.
 
-The consignments are identified by identifiers such as the commercial invoice number, UCR number, container number etc.
+## Request a password reset
 
-![Consignments Overview](/img/userGuide/co1.png)
+Click **Forgot your password?** on the login page.
+
+![Forgot password link on the login page](/img/userGuide/rp1.png)
+
+Enter your email address in the **Enter email** field and click **Submit**.
+
+![Password reset email form](/img/userGuide/rp2.png)
+
+## Reset your password
+
+Open the email from notifications@tlip.io and click **Reset your password** to proceed.
+
+![Password reset email](/img/userGuide/rp3.png)

@@ -1,41 +1,49 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Add a document to a consignment
 
+Upload and manage trade documents in a consignment's e-Pouch.
+
+## Open the e-Pouch
+
 Click on the relevant consignment in the consignments overview.
 
-![Add a document to a consignment](/img/userGuide/adtac1.png)
+![Consignments overview](/img/userGuide/adtac1.png)
 
-Click on the e-Pouch tab.
+Click the **e-Pouch** tab.
 
-![Add a document to a consignment](/img/userGuide/adtac2.png)
+![e-Pouch tab on the consignment details page](/img/userGuide/adtac2.png)
 
-Click on the Upload button to upload a document.
+## Upload the document
 
-![Add a document to a consignment](/img/userGuide/adtac3.png)
+Click **Upload**.
 
-Select the Document source (upload/camera) in the dropdown menu.
+![Upload button](/img/userGuide/adtac3.png)
 
-![Add a document to a consignment](/img/userGuide/adtac4.png)
+Select the document source (upload/camera) in the dropdown menu.
 
-Select the Document type (Purchase order, Weight certificate, Packing list, etc.) in the dropdown menu.
+![Document source selection](/img/userGuide/adtac4.png)
 
-![Add a document to a consignment](/img/userGuide/adtac5.png)
+## Set document details
+
+Select the document type (Purchase order, Weight certificate, Packing list, etc.) in the dropdown menu.
+
+![Document type selection](/img/userGuide/adtac5.png)
 
 Upload the relevant document.
 
-![Add a document to a consignment](/img/userGuide/adtac6.png)
+![Document upload](/img/userGuide/adtac6.png)
 
-Select the Completion status of the document (Issued / Approved / Rejected / Failed / Custom).
+Select the completion status of the document (Issued / Approved / Rejected / Failed / Custom).
 
-![Add a document to a consignment](/img/userGuide/adtac7.png)
+![Completion status selection](/img/userGuide/adtac7.png)
 
-Click on the OK button to finalize.
+Click **OK** to finalize.
 
-![Add a document to a consignment](/img/userGuide/adtac8.png)
+![OK button](/img/userGuide/adtac8.png)
 
-The document is now viewable in the e-Pouch. Click on the document to view details and manage the document.
+The document is now viewable in the e-Pouch. Click on it to view details and manage it.
 
-![Add a document to a consignment](/img/userGuide/adtac9.png)
+![Document in the e-Pouch](/img/userGuide/adtac9.png)
