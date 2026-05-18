@@ -2,16 +2,12 @@
 sidebar_position: 6
 ---
 
-# Reset Password
+# Log In
 
-If you forgot your password, click on Forgot your password? on the login page.
+Access the TLIP platform with your credentials.
 
-![Reset Password](/img/userGuide/rp1.png)
+## Enter your credentials
 
-Enter your email address in the Enter email field and click on Submit.
+Enter your username and password and click **Log in**.
 
-![Reset Password](/img/userGuide/rp2.png)
-
-Open the email from notifications@tlip.io and click on Reset your password to proceed.
-
-![Reset Password](/img/userGuide/rp3.png)
+![Log in form](/img/userGuide/li1.png)

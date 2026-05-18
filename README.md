@@ -1,6 +1,6 @@
 # wiki.tlip.io
 
-The documentation web site for the TradeMark Africa TLIP project [https://wiki.tlip.io](https://wiki.tlip.io).
+The documentation web site for the Trade Logistics Information Pipeline(TLIP) project [https://wiki.tlip.io](https://wiki.tlip.io).
 
 ## Installation
 
