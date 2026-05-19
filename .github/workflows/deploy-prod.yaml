@@ -1,46 +1,52 @@
 name: wiki.tlip.io Build and Deploy Production
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/docs.yaml"
-      - "docs/**"
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+        paths:
+            - ".github/workflows/docs.yaml"
+            - "docs/**"
+    workflow_dispatch:
 
 permissions:
-  contents: read
-  pull-requests: write
-  deployments: write
+    contents: read
+    pull-requests: write
+    deployments: write
 
 concurrency:
-  group: docs
+    group: docs
+
+env:
+    VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4.1.1
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
 
-      - name: Use Node.js 20.x
-        uses: actions/setup-node@v4.0.2
+            - name: Use Node.js 20.x
+              uses: actions/setup-node@v6
 
-      - name: Build
-        run: |
-          npm install
-          npm run deploy-build
-          cd build
+            - name: Build
+              run: |
+                  npm install
+                  npm run deploy-build
+                  cd build
 
-      - name: Deploy to Vercel
-        uses: BetaHuhn/deploy-to-vercel-action@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
-          ALIAS_DOMAINS: ${{ secrets.DOMAIN }}
-          PRODUCTION: true
+            - name: Install Vercel CLI
+              run: npm install -g vercel
+
+            # Deploy To vercel and output the deployment URL as a GitHub output from the step
+            - name: Deploy to Vercel
+              id: deploy
+              run: |
+                  DEPLOYMENT_URL=$(vercel deploy \
+                  --token=${{ secrets.VERCEL_TOKEN }} \
+                  --scope=${{ secrets.VERCEL_SCOPE }} \
+                  --prod)
+                  echo "deployment-url=$DEPLOYMENT_URL" >> $GITHUB_OUTPUT
